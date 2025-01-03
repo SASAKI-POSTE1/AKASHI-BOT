@@ -16,7 +16,7 @@ const DEBUG = convertToBool(process.env.DEBUG, 'true');
 
 module.exports = {
   VERSION: 'v4.4.4',
-  SESSION_ID: process.env.SESSION_ID || '',
+  SESSION_ID: process.env.SESSION_ID || 'HP_2025_JAN_3_ARUSXN',
   MODE: (process.env.MODE || 'private').toLowerCase(),
   HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
   SEND_READ: toBool(process.env.READ_COMMAND),
@@ -29,8 +29,8 @@ module.exports = {
   AUTOMUTE_MSG: process.env.AUTOMUTE_MSG || '_Group automuted!_\n_(Change this by setting var AUTOMUTE_MSG)_',
   AUTOUNMUTE_MSG: process.env.AUTOUNMUTE_MSG || '_Group autounmuted!_\n_(Change this by setting var AUTOUNMUTE_MSG)_',
   ANTILINK_MSG: process.env.ANTILINK_MSG || '_Link Not Allowed!_\n_(Change this by setting var ANTILINK_MSG)_',
-  BOT_INFO: process.env.BOT_INFO || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/6oRG106.jpeg',
-  AUDIO_DATA: process.env.AUDIO_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/fj2WE83.jpeg',
+  BOT_INFO: process.env.BOT_INFO || 'JINHUYK;Kangjinhuyk;242067274660;https://i.postimg.cc/wT3ZsJ8D/Solo-max-level-newbie-3.jpg',
+  AUDIO_DATA: process.env.AUDIO_DATA || 'JINHUYK; Kangjinhuyk;https://i.postimg.cc/wT3ZsJ8D/Solo-max-level-newbie-3.jpg',
   STICKER_DATA: process.env.STICKER_DATA || 'ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ',
   ERROR_MESSAGE: toBool(process.env.ERROR_MESSAGE, 'true'),
   SONG_THUMBNAIL: toBool(process.env.SONG_THUMBNAIL),
